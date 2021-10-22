@@ -1,0 +1,90 @@
+.btn {
+    border: none;
+    outline: none;
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.blue {
+    background: #00f;
+    color: #fff;
+}
+
+.blue-ghost {
+    border: 1.4px solid #00f;
+    color: #00f;
+    transition: all .3s;
+
+    &:hover {
+        background: #00f;
+        color: #fff;
+    }
+}
+
+.white {
+    background: #fff;
+    color: #00f;
+}
+
+.white-ghost {
+    background: transparent;
+    border: 1.4px solid #fff;
+    color: #fff;
+    transition: all .3s;
+
+    &:hover {
+        background: #fff;
+        color: #00f;
+    }
+}
+
+.red {
+    background: #f00;
+    color: #fff;
+}
+
+.red-ghost {
+    background: transparent;
+    border: 1.4px solid #f00;
+    color: #f00;
+    transition: all .3s;
+
+    &:hover {
+        background: #f00;
+        color: #fff;
+    }
+}
+
+.FABN {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50%;
+    padding: 10px 14px;
+    font-size: 25px;
+    background: #00f;
+    color: #fff;
+    border: none;
+    outline: none;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.FABD {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    border-radius: 50%;
+    padding: 10px 14px;
+    font-size: 23px;
+    background: #f00;
+    color: #fff;
+    border: none;
+    outline: none;
+    z-index: 1000;
+    cursor: pointer;
+}
